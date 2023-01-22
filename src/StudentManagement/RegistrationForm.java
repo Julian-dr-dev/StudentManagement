@@ -9,8 +9,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
-import static java.sql.DriverManager.*;
+
 
 public class RegistrationForm extends JDialog {
     private JTextField txtName;
